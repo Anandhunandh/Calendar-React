@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+*{
+ font-family: "Tiny5", sans-serif;
+    
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-image: url(background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,1);
+  overflow: hidden;
+}
+.month{
+  margin: 0;
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.day{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(63, 62, 62);
+  margin: 0;
+}
+.date{
+  font-size: 100px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.year{
+  font-size: 35px;
+  color: rgb(83, 83, 83);
+  margin-top: 15px;
+}
+.time{
+  margin-top: -15px;
+  font-size: 30px;
+}
